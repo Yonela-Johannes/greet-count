@@ -30,7 +30,7 @@ greetMe.onclick = () => {
         selectionError.classList.add('hide')
         username.classList.add('correct-name')
         for (let i = 0; i < languageGreetSelect.length; i++) {
-            language = languageGreetSelect[i].value
+            languageGreetSelect[i].checked && (language = languageGreetSelect[i].value)
         }
         usernames.includes(cleanName) ? (usernames = usernames, language, count) : (usernames = [...usernames, cleanName], count++, language)
         counter.innerHTML = count
