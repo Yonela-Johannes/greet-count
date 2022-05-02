@@ -14,7 +14,7 @@ let selected = false
 
 let usernames = !users ? [] : users
 counter.innerHTML = count
-greet.innerHTML = !users ? 'Your name and greeting in selected language will appear here.' : `${language} ${users.slice(-1)}`
+greet.innerHTML = 'Your name and greeting in selected language will appear here.'
 
 greetMe.onclick = () => {
     let name = username.value

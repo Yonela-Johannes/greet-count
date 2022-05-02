@@ -88,11 +88,13 @@ button:hover{
     font-size: 13px;
     justify-self: center;
     margin-left: 60px;
+    margin-top: 5px;
 }
 
 .error-name{
     color: red;
     border-color: red;
+    margin-top: 5px;
 }
 .correct-name{
     color: green;
